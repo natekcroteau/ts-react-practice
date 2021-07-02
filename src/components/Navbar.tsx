@@ -2,7 +2,7 @@ import React from 'react'
 import { User } from '../model/Model'
 import { Link } from 'react-router-dom'
 
-export class Navbar extends React.Component<{
+export default class Navbar extends React.Component<{
     user: User | undefined
 }> {
 
